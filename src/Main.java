@@ -9,12 +9,12 @@ public class Main {
         // Рассчитываете количество бонусных миль, используя
         // значения заведённых переменных. Ответ сохраняете в
         // новую переменную и выводите на экран
-        int ticket_price = 250000;
-        int one_bonus_mile_in_rubles = 20;
+        int ticketPrice = 23123; //стоимость билета
+        int oneBonusMileInRubles = 20; //одна бонусная миля в рублях
 
-        int bonus_mile = ticket_price / one_bonus_mile_in_rubles;
+        int bonusMile = ticketPrice / oneBonusMileInRubles;
 
-        System.out.println("Колличество бонусных миль:" + bonus_mile);
+        System.out.println("Колличество бонусных миль:" + bonusMile);
 
 
     }
